@@ -255,7 +255,7 @@ Description:  Bridge forwarding accelerator
 
 Package: busybox-selinux
 Version: 1.36.1-1
-Depends: libc, jsonfilter, libselinux
+Depends: libc, libpam, jsonfilter, libselinux
 Provides: busybox
 Source: package/utils/busybox
 SourceName: busybox-selinux
@@ -268,11 +268,33 @@ CPE-ID: cpe:/a:busybox:busybox
 Essential: yes
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 280687
+Installed-Size: 285843
 Filename: busybox-selinux_1.36.1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 280409
-SHA256sum: b48cd0b2cf9013c74faae1195e57ec6ffcac3a192bc06446d83b12efd21d95fd
+Size: 286018
+SHA256sum: 23f1899109a5151c41a1d7ef82084575f555f7aea1473c3cc42ae94fe9a21039
 Description:  Core utilities for embedded Linux with SELinux support
+
+Package: busybox
+Version: 1.36.1-1
+Depends: libc, libpam, jsonfilter, libselinux
+Conflicts: busybox-selinux
+Source: package/utils/busybox
+SourceName: busybox
+License: GPL-2.0
+LicenseFiles: LICENSE archival/libarchive/bz/LICENSE
+Section: base
+Require-User: ntp=123:ntp=123
+SourceDateEpoch: 1700002853
+CPE-ID: cpe:/a:busybox:busybox
+Essential: yes
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 285833
+Filename: busybox_1.36.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 286022
+SHA256sum: 09580c228062608ceaba412dc9b71efe497e865538361ee9a0ab6b4e9bcf0f98
+Description:  The Swiss Army Knife of embedded Linux.
+ It slices, it dices, it makes Julian Fries.
 
 Package: bzip2
 Version: 1.0.8-1
@@ -583,10 +605,10 @@ Section: utils
 SourceDateEpoch: 1700002853
 CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 199073
+Installed-Size: 199870
 Filename: e2fsprogs_1.47.0-2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 198923
-SHA256sum: 6bcd53f6883274fab47b81c27c42b18b8af57577f26bfe10804dcf6a4802dace
+Size: 199836
+SHA256sum: d6de808ac3780a9469e642864682c91a30a889ee9744ef3264e4fa1daf13785d
 Description:  This package contains essential ext2 filesystem utilities which consists of
  e2fsck, mke2fs and most of the other core ext2 filesystem utilities.
 
@@ -961,10 +983,10 @@ SourceDateEpoch: 1700002853
 CPE-ID: cpe:/a:iproute2_project:iproute2
 Maintainer: Russell Senior <russell@personaltelco.net>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 256794
+Installed-Size: 256790
 Filename: ip-full_6.3.0-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 257214
-SHA256sum: 545e889ebe435cab210fda4972a193d1cd501f58ed06cf76a9fafd5ca39a24ed
+Size: 257211
+SHA256sum: ea7f07b2e7ce37e62ecd1da88ea9f200536966dcf7737fd6046fb078d711cebc
 Description:  Routing control utility (full)
 
 Package: ipip
@@ -1164,10 +1186,10 @@ SourceName: kexec
 Section: utils
 SourceDateEpoch: 1700002853
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 36349
+Installed-Size: 36288
 Filename: kexec_2.0.26-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 37080
-SHA256sum: 15220fedf4912cc24ddaef3813891a35248c12a59d486c9abcdfc90ec26d8553
+Size: 37023
+SHA256sum: 932235560cfc7a5a82de01bba31f70005131bd8d51c3455764af64917f25c7f4
 Description:  The kexec utility allows to load and boot another kernel.
 
 Package: libasm1
@@ -1219,10 +1241,10 @@ SourceDateEpoch: 1700002853
 CPE-ID: cpe:/a:gnu:binutils
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 344989
+Installed-Size: 344990
 Filename: libbfd_2.40-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 340850
-SHA256sum: 2a41dc19c30bf5bc620e939785551083a65af9e4e1e4d0bcde4a4dbb5f614180
+Size: 341016
+SHA256sum: 009de4fa0c816e100be6f4a3af1715f080c4e93ac21ddbc0f7d1974db9f60505
 Description:  libbfd
 
 Package: libblkid1
@@ -1373,10 +1395,10 @@ SourceDateEpoch: 1700002853
 CPE-ID: cpe:/a:gnu:binutils
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 140202
+Installed-Size: 140210
 Filename: libctf_2.40-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 140829
-SHA256sum: dad1ae4d354dafa424caccf725cfab96203386aa8e7c16e1aec4af566c196635
+Size: 140961
+SHA256sum: 2c3ea52f3eac86d392a3b51c352939823fcffb945c1467fb8d8dabc9e938ef6b
 Description:  libctf
 
 Package: libdw1
@@ -2157,10 +2179,10 @@ SourceDateEpoch: 1700002853
 CPE-ID: cpe:/a:gnu:binutils
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 55862
+Installed-Size: 55860
 Filename: libopcodes_2.40-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 55616
-SHA256sum: 2ba89e52016e8281a26d4266ade7386fd2bdd46e1d54dfdc8cae49b8066b3514
+Size: 55665
+SHA256sum: 00d0e5be4eb4ea9f1a2851d8a4dd546ad1ea536bc50c7881e20d76978c5dbf58
 Description:  libopcodes
 
 Package: libopenssl-conf
@@ -2220,10 +2242,10 @@ ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 1776373
+Installed-Size: 1776401
 Filename: libopenssl3_3.0.12-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 1761080
-SHA256sum: e1958b4e038e47634a4edbfa5a33b7086da4090e87d0e62ae234dbdc9ec1abd4
+Size: 1760938
+SHA256sum: 3171a267aa4e994f6a47eed7b955076c9e1c483012a98e3eb2537961414b0063
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -2244,10 +2266,10 @@ ABIVersion: 1
 CPE-ID: cpe:/a:tcpdump:libpcap
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 94445
+Installed-Size: 99265
 Filename: libpcap1_1.10.4-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 95051
-SHA256sum: 9bbd7589150ca79e22a93426015d4c28454b5e9ce8e3e332ef8948430fbb56d0
+Size: 99950
+SHA256sum: d2937cfd1eeb018b6c4988fd7435b0377957b331797372fc3c27030e980d082b
 Description:  This package contains a system-independent library for user-level network packet
  capture.
 
@@ -2299,10 +2321,10 @@ SourceDateEpoch: 1700002853
 CPE-ID: cpe:/a:pcre:pcre
 Maintainer: Shane Peelar <lookatyouhacker@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 182244
+Installed-Size: 182245
 Filename: libpcre2_10.42-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 183022
-SHA256sum: afbccba37cee004ec4cccea926dbbb0d14fd0483fbd3b12c804e136b6d33ff73
+Size: 183025
+SHA256sum: 4f8d59c26d487629efc309d9d2b603fe3fea9220417d798bf9bf42c8a74e590f
 Description:  A Perl Compatible Regular Expression library
 
 Package: libpopt0
@@ -3363,10 +3385,10 @@ Require-User: logd=514:logd=514
 SourceDateEpoch: 1700002853
 Maintainer: John Crispin <john@phrozen.org>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 11039
+Installed-Size: 11034
 Filename: logd_2022-08-13-4c7b720b-2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 11804
-SHA256sum: 1741da2045aa8e182e283e24e9bd97edd10c6b4bce0d5ef934c5372e6b851e07
+Size: 11810
+SHA256sum: cf8a45632a51c2f803e47bd55a1b753f40d28be94ec71d605f202db06df78f94
 Description:  OpenWrt system log implementation
 
 Package: logger
@@ -3601,10 +3623,10 @@ Section: utils
 SourceDateEpoch: 1700002853
 CPE-ID: cpe:/a:kernel:util-linux
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 57753
+Installed-Size: 57560
 Filename: mount-utils_2.39-2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 58331
-SHA256sum: 6f967ce9861140cc02b3a3d6cd2072ae194e264bff0f8beae24e187893253ead
+Size: 58058
+SHA256sum: 41e1f4476df420069ff5d3682835f3f739e454d07994cf858f5847fa5691f504
 Description:  contains: mount, umount, findmnt
 
 Package: mt7601u-firmware
@@ -3745,10 +3767,10 @@ SourceDateEpoch: 1700002853
 CPE-ID: cpe:/a:gnu:binutils
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 154093
+Installed-Size: 154088
 Filename: objdump_2.40-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 153148
-SHA256sum: adaa65c7cae4128ed7ce7f3e2b32c5bed28d3ae325a62bf4db517da847ca9ef6
+Size: 153046
+SHA256sum: 12d52c4b4e2661f3235b240da4fe9c9d4c17709bd8cca6e09ab487434b36ba37
 Description:  objdump
 
 Package: odhcp6c
@@ -3761,10 +3783,10 @@ Section: net
 SourceDateEpoch: 1700002853
 Maintainer: Hans Dedecker <dedeckeh@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 27547
+Installed-Size: 27610
 Filename: odhcp6c_2023-05-12-bcd28363-20_arm_cortex-a9_vfpv3-d16.ipk
-Size: 28374
-SHA256sum: aa00d5ce1a93c66b4826858704917431adf712ec4413ff393836b909da168dea
+Size: 28436
+SHA256sum: f4015a97640c92d4cfcb20e435618b7e0b12e6086205c487dd1734ea934be565
 Description:  Embedded DHCPv6-client for OpenWrt
 
 Package: odhcpd-ipv6only
@@ -3840,10 +3862,10 @@ SourceDateEpoch: 1700002853
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 352533
+Installed-Size: 353264
 Filename: openssl-util_3.0.12-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 342473
-SHA256sum: 93efe8585aa383e22bf4100806b509c0f1bc342005f3a801dc4759ee35b71cf6
+Size: 343437
+SHA256sum: 29907e41babb5c50559818587744a604a2a4958ff78ca4ff7b44a7a269ed14f6
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -3879,10 +3901,10 @@ SourceDateEpoch: 1700002853
 Essential: yes
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 70616
+Installed-Size: 70604
 Filename: opkg_2022-02-24-d038e5b6-2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 71624
-SHA256sum: 462decb04281257bcb1dce6def4b8128388bd33c5db70f346f6d12b78388421d
+Size: 71522
+SHA256sum: 3f5045c0e25d5fb647c18391feb1a42ea7654e19e2d3e43870d1e9202a38761e
 Description:  Lightweight package management system
  opkg is the opkg Package Management System, for handling
  installation and removal of packages on a system. It can
@@ -4212,10 +4234,10 @@ SourceDateEpoch: 1700002853
 CPE-ID: cpe:/a:selinuxproject:policycoreutils
 Maintainer: Thomas Petazzoni <thomas.petazzoni@bootlin.com>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 269
+Installed-Size: 483
 Filename: policycoreutils_3.5-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 1045
-SHA256sum: 83649544ccdee074552fd59bbf43118fa244ec5159f884ecc7712395020f2ba9
+Size: 1266
+SHA256sum: 9db0a4229781f98c37c7dcfbab852c8aa8b42242e301d0a6255cf4be539b2959
 Description:  SELinux policy utility common files
 
 Package: ppp-mod-passwordfd
@@ -4590,10 +4612,10 @@ Section: net
 SourceDateEpoch: 1700002853
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 10707
+Installed-Size: 10659
 Filename: relayd_2023-01-28-f646ba40-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 11492
-SHA256sum: b9b9f6725d9de19f278092841235c1bbea8ecad508c3e63452e23236deb434c9
+Size: 11449
+SHA256sum: 06e083ace72be4f9379481a9cceeb39b41e22047ab564a8a7c59dc8f195c0553
 Description:  Transparent routing / relay daemon
 
 Package: resize2fs
@@ -4738,10 +4760,10 @@ Section: net
 SourceDateEpoch: 1700002853
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 3608
+Installed-Size: 3623
 Filename: rssileds_4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 4404
-SHA256sum: 9e9b82816436f351e52e6c296cb9608bc598a2d72093913a67bed6aa505097c7
+Size: 4413
+SHA256sum: 91a5211fcb6a4f3178f3d1b1db414ba746002447ca5f61956323e2b7004ce2a7
 Description:  A small process written in C to update the signal-strength indicator LEDs
 
 Package: rt2800-pci-firmware
@@ -5028,10 +5050,10 @@ SourceDateEpoch: 1700002853
 CPE-ID: cpe:/a:iproute2_project:iproute2
 Maintainer: Russell Senior <russell@personaltelco.net>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 197009
+Installed-Size: 197008
 Filename: tc-full_6.3.0-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 197505
-SHA256sum: 2884f5e3f1f6ca048abf3806ef2a942d1cc95e7a49974aeafe9cedb4c2187265
+Size: 197500
+SHA256sum: a3b2c46c69a7dcfe48e4e12327e81adbd93a633625c3c85c6b77d57b89d8ef7c
 Description:  Traffic control utility (full)
 
 Package: tc-mod-iptables
@@ -5870,10 +5892,10 @@ Section: net
 SourceDateEpoch: 1700002853
 Maintainer: Jason A. Donenfeld <Jason@zx2c4.com>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 28693
+Installed-Size: 28710
 Filename: wireguard-tools_1.0.20210914-2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 29757
-SHA256sum: 417998051f7e9cfaedbbd0fa72ec186f6f44ff641f0835ae38b465b9dd355af8
+Size: 29808
+SHA256sum: 3127bcb37ce873ab155c475265631fc7d4df2b7f707f06ba096cc8740b12131d
 Description:  WireGuard is a novel VPN that runs inside the Linux Kernel and utilizes
  state-of-the-art cryptography. It aims to be faster, simpler, leaner, and
  more useful than IPSec, while avoiding the massive headache. It intends to
@@ -5965,6 +5987,26 @@ Installed-Size: 471894
 Filename: wpad-basic-mbedtls_2023-09-08-e5ccbfc6-6_arm_cortex-a9_vfpv3-d16.ipk
 Size: 472292
 SHA256sum: b38e59647e10e21b23872a3902a6966fd4b106ab5a8c64edac3b45ec3ead5a1c
+Description:  This package contains a basic IEEE 802.1x/WPA Authenticator and Supplicant with WPA-PSK, SAE (WPA3-Personal), 802.11r and 802.11w support.
+
+Package: wpad-basic-openssl
+Version: 2023-09-08-e5ccbfc6-6
+Depends: hostapd-common (=2023-09-08-e5ccbfc6-6), libc, libnl-tiny1, hostapd-common, ucode, libubus20230605, libucode20230711, ucode-mod-fs, ucode-mod-nl80211, ucode-mod-rtnl, ucode-mod-ubus, ucode-mod-uloop, libblobmsg-json20230523, libopenssl3, libopenssl-legacy
+Conflicts: hostapd, hostapd-basic, hostapd-basic-openssl, hostapd-basic-wolfssl, hostapd-basic-mbedtls, hostapd-mini, hostapd-openssl, hostapd-wolfssl, hostapd-mbedtls, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-mesh-mbedtls, wpad-basic, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-mesh-mbedtls, wpad-basic
+Provides: hostapd, wpa-supplicant
+Source: package/network/services/hostapd
+SourceName: wpad-basic-openssl
+License: BSD-3-Clause
+Section: net
+Require-User: network=101:network=101
+SourceDateEpoch: 1700002853
+CPE-ID: cpe:/a:w1.fi:hostapd
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 472570
+Filename: wpad-basic-openssl_2023-09-08-e5ccbfc6-6_arm_cortex-a9_vfpv3-d16.ipk
+Size: 472873
+SHA256sum: b14a9ebbc4ecc3ebe609eea0a52310e687c291005a95a09dcfe2b9691c00db26
 Description:  This package contains a basic IEEE 802.1x/WPA Authenticator and Supplicant with WPA-PSK, SAE (WPA3-Personal), 802.11r and 802.11w support.
 
 Package: wpad-openssl
