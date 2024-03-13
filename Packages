@@ -1,0 +1,1238 @@
+Package: ar3k-firmware
+Version: 20230804-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 961485
+Filename: ar3k-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 961798
+SHA256sum: c7ae1852a75aaa62605aa377ddc99135f31c5428f435690fe861b45db1ff36df
+Description:  ath3k firmware
+
+Package: ath9k-htc-firmware
+Version: 20230804-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 61877
+Filename: ath9k-htc-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 62449
+SHA256sum: 25b6d3080921685eb041e83e387169d1075f9b4bfb11d4cf33ac7615b3bbfae1
+Description:  AR9271/AR7010 firmware
+
+Package: bnx2-firmware
+Version: 20230804-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 105166
+Filename: bnx2-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 105832
+SHA256sum: ea0cf70706e5f04f7696b71f36172e85b8ac1bb4145d135f74437ecbbeccabef
+Description:  Broadcom BCM5706/5708/5709/5716 firmware
+
+Package: bnx2x-firmware
+Version: 20230804-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2421829
+Filename: bnx2x-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2415470
+SHA256sum: f7dcf8a5c2de0a73a595acfb108114c26407e5694ba300553bd4f96cebbcaff9
+Description:  =QLogic 5771x/578xx firmware
+
+Package: brcmfmac-firmware-usb
+Version: 20230804-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 502982
+Filename: brcmfmac-firmware-usb_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 503690
+SHA256sum: bffcbd78e9a963f960137911af8804f5fb3e0d7de17d1fda2783f20286e93b6b
+Description:  Broadcom BCM43xx fullmac USB firmware
+
+Package: busybox-selinux
+Version: 1.36.1-1
+Depends: libc, libselinux
+Provides: busybox
+License: GPL-2.0
+Section: base
+CPE-ID: cpe:/a:busybox:busybox
+Essential: yes
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 273156
+Filename: busybox-selinux_1.36.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 272905
+SHA256sum: 3ef281836d2b465ae5269a560c2b77d415ac63fa17cfb2721cd9e05960856543
+Description:  Core utilities for embedded Linux with SELinux support
+
+Package: busybox
+Version: 1.36.1-1
+Depends: libc
+Conflicts: busybox-selinux
+License: GPL-2.0
+Section: base
+CPE-ID: cpe:/a:busybox:busybox
+Essential: yes
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 263164
+Filename: busybox_1.36.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 263507
+SHA256sum: 459dce7b3f404adb64b6b10707a76ea19777867f45bf713d16247ad83e968099
+Description:  The Swiss Army Knife of embedded Linux.
+ It slices, it dices, it makes Julian Fries.
+
+Package: ca-bundle
+Version: 20230311-1
+Depends: libc
+Provides: ca-certs
+Section: base
+Architecture: all
+Installed-Size: 123476
+Filename: ca-bundle_20230311-1_all.ipk
+Size: 124252
+SHA256sum: fcf370a733f0452b9d2005df49971cc58bacdde5b96e1cfb05cabb0f24ff919c
+Description:  System CA certificates as a bundle
+
+Package: carl9170-firmware
+Version: 20230804-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 9761
+Filename: carl9170-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 10498
+SHA256sum: 7ecb83069f21a0c955c270b9524626bb58e0e96adc3ad2a97ce3544d8a3db58f
+Description:  AR9170 firmware
+
+Package: chat
+Version: 2.4.9.git-2021-01-04-4
+Depends: libc
+License: BSD-4-Clause
+Section: net
+CPE-ID: cpe:/a:samba:ppp
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 9529
+Filename: chat_2.4.9.git-2021-01-04-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 10352
+SHA256sum: b4f11c85e2caacdf7812278aeaa050d37badfffa420058dbc8aadbfb7a15e59b
+Description:  This package contains an utility to establish conversation with other PPP servers
+ (via a modem).
+
+Package: dnsmasq
+Version: 2.89-4
+Depends: libc, libubus20230605
+License: GPL-2.0
+Section: net
+CPE-ID: cpe:/a:thekelleys:dnsmasq
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 142502
+Filename: dnsmasq_2.89-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 143004
+SHA256sum: 604aad6acd6ab185ced664bd9c8d5a0108416ba37979f5aec3f452a6ec23c03a
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+
+Package: e100-firmware
+Version: 20230804-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 833
+Filename: e100-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1566
+SHA256sum: 8a33025f72125f82ccd04ba72c34074920cf7142867dfee1363efd4680b6f63b
+Description:  Intel e100
+
+Package: edgeport-firmware
+Version: 20230804-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 18900
+Filename: edgeport-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 19585
+SHA256sum: 0a3de7d2181540ff7b73262f2c5e820ac56f8e5ae032822457c147cd0784dcff
+Description:  USB Inside Out Edgeport Serial Driver firmware
+
+Package: firewall4
+Version: 2023-09-01-598d9fbb-1
+Depends: ucode (>= 2022-03-22), libc, kmod-nft-core, kmod-nft-fib, kmod-nft-offload, kmod-nft-nat, nftables-json, ucode, ucode-mod-fs, ucode-mod-ubus, ucode-mod-uci
+Provides: uci-firewall
+License: ISC
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 28669
+Filename: firewall4_2023-09-01-598d9fbb-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 29673
+SHA256sum: f3e2284a4203ba26539cc10d78fe8e57ea3109ec1f66df4b4a578470ac93cadf
+Description:  This package provides an nftables-based implementation of the UCI firewall
+ sharing the same configuration format.
+
+Package: getrandom
+Version: 2022-08-13-4c7b720b-2
+Depends: libc
+License: GPL-2.0
+Section: base
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1577
+Filename: getrandom_2022-08-13-4c7b720b-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2349
+SHA256sum: 154a819a32fbc00cb0856a3eae736baba16158fe96df6d886d14953588183f33
+Description:  OpenWrt getrandom system helper
+
+Package: hostapd-common
+Version: 2023-09-08-e5ccbfc6-6
+Depends: libc
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:w1.fi:hostapd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 16197
+Filename: hostapd-common_2023-09-08-e5ccbfc6-6_arm_cortex-a9_vfpv3-d16.ipk
+Size: 16987
+SHA256sum: da322c764b7dbe7ea31ffd7f213f3664a913f05ec012d7984634896483a7e423
+Description:  hostapd/wpa_supplicant common support files
+
+Package: iw
+Version: 5.19-1
+Depends: libc, libnl-tiny1
+License: GPL-2.0
+Section: net
+CPE-ID: cpe:/a:kernel:iw
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 54882
+Filename: iw_5.19-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 55479
+SHA256sum: 09dae8d5f54af10460db2b42904f150ad1da43c88bf5deb8085bac8799e058ac
+Description:  cfg80211 interface configuration utility
+
+Package: iwinfo
+Version: 2023-07-01-ca79f641-1
+Depends: libc, libiwinfo20230701
+License: GPL-2.0
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 7319
+Filename: iwinfo_2023-07-01-ca79f641-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 8151
+SHA256sum: 7123074d6786e459fcf83ff9526f79cd906561c86cd7f2283409f5a8810b2921
+Description:  Command line frontend for the wireless information library.
+
+Package: jansson4
+Version: 2.14-3
+Depends: libc
+Provides: jansson
+License: MIT
+Section: libs
+ABIVersion: 4
+CPE-ID: cpe:/a:jansson_project:jansson
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 20891
+Filename: jansson4_2.14-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 21638
+SHA256sum: 0d122465df79b3b2eafc9f5ae3ae92faf407ce82711823df5e1f1819363cf209
+Description:  Jansson is a C library for encoding, decoding and manipulating JSON data
+
+Package: jshn
+Version: 2023-05-23-75a3b870-1
+Depends: libc, libjson-c5, libubox20230523, libblobmsg-json20230523
+License: ISC
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 6613
+Filename: jshn_2023-05-23-75a3b870-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7393
+SHA256sum: a69e7905f812b871a0a6ff8f6e190f3f8ff456180b67c52ad48314550b301ecd
+Description:  Library for parsing and generating JSON from shell scripts
+
+Package: jsonfilter
+Version: 2018-02-04-c7e938d6-1
+Depends: libc, libubox20230523, libjson-c5
+License: ISC
+Section: base
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 9742
+Filename: jsonfilter_2018-02-04-c7e938d6-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 10521
+SHA256sum: 8992ae67b91d63f910c30248d76249579a1352dd3fd431a70ca68f1cb836c0e0
+Description:  OpenWrt JSON filter utility
+
+Package: libblobmsg-json20230523
+Version: 2023-05-23-75a3b870-1
+Depends: libc, libjson-c5, libubox20230523
+Provides: libblobmsg-json
+License: ISC
+Section: libs
+ABIVersion: 20230523
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3574
+Filename: libblobmsg-json20230523_2023-05-23-75a3b870-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4322
+SHA256sum: 62e5458f0847310cc26b6947a498fa84eb693ea5f8d7088da4f3a1475a4fc545
+Description:  blobmsg <-> json conversion library
+
+Package: libbpf1
+Version: 1.2.2-1
+Depends: libc, libelf1
+Provides: libbpf
+License: LGPL-2.1 OR BSD-2-Clause
+Section: libs
+ABIVersion: 1
+CPE-ID: cpe:/a:libbpf_project:libbpf
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 130012
+Filename: libbpf1_1.2.2-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 130488
+SHA256sum: af41c4cf8711fb5641537da81b0af5491392e47811f45b7c33658ff2a5645d04
+Description:  libbpf is a library for loading eBPF programs and reading and manipulating eBPF objects from user-space.
+
+Package: libelf1
+Version: 0.189-1
+Depends: libc, zlib
+Provides: libelf, libelf11
+License: GPL-3.0-or-later
+Section: libs
+ABIVersion: 1
+CPE-ID: cpe:/a:elfutils_project:elfutils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 39541
+Filename: libelf1_0.189-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 40372
+SHA256sum: c052d1e9fc89c64d5af9b8b84830c26f0878c6845c6ad45b28583d3664537a54
+Description:  ELF manipulation libraries (libelf)
+
+Package: libiwinfo-data
+Version: 2023-07-01-ca79f641-1
+Depends: libc
+License: GPL-2.0
+Section: opt
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3055
+Filename: libiwinfo-data_2023-07-01-ca79f641-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3779
+SHA256sum: ffdc20f98841e507ef99bbd96337019a5d4da16898d684b31f0100d9c82599ee
+Description:  libiwinfo Lua binding
+
+Package: libiwinfo20230701
+Version: 2023-07-01-ca79f641-1
+Depends: libc, libnl-tiny1, libuci20130104, libubus20230605, libiwinfo-data
+Provides: libiwinfo
+License: GPL-2.0
+Section: libs
+ABIVersion: 20230701
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 24616
+Filename: libiwinfo20230701_2023-07-01-ca79f641-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 25430
+SHA256sum: 67b314a7fd4a4e6c3ca53c6b2eb9ca911025b1638e5a5e7d0c37e1cd56142730
+Description:  Wireless information library with simplified API for nl80211
+ and wext driver interfaces.
+
+Package: libjson-c5
+Version: 0.16-3
+Depends: libc
+Provides: libjson-c
+License: MIT
+Section: libs
+ABIVersion: 5
+CPE-ID: cpe:/a:json-c_project:json-c
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 24358
+Filename: libjson-c5_0.16-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 25108
+SHA256sum: 57f6abaf68a2c122d2189ae39f908155af638442eb3e74590cd4933b92621a3e
+Description:  This package contains a library for javascript object notation backends.
+
+Package: libjson-script20230523
+Version: 2023-05-23-75a3b870-1
+Depends: libc, libubox20230523
+Provides: libjson-script
+License: ISC
+Section: utils
+ABIVersion: 20230523
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 4619
+Filename: libjson-script20230523_2023-05-23-75a3b870-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 5367
+SHA256sum: d5a058e530e15e4a4d33f0861d4466d1e83e81d4a2ca58efe71a3f2ebb94dd97
+Description:  Minimalistic JSON based scripting engine
+
+Package: libmbedtls12
+Version: 2.28.5-2
+Depends: libc
+Provides: libmbedtls
+License: GPL-2.0-or-later
+Section: libs
+ABIVersion: 12
+CPE-ID: cpe:/a:arm:mbed_tls
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 206098
+Filename: libmbedtls12_2.28.5-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 206658
+SHA256sum: 07ff7daf1eac414a4d3980501beba3806f37fd78ed42060c8b2bddbee59a5523
+Description:  The aim of the mbedtls project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains the mbedtls library.
+
+Package: libmnl0
+Version: 1.0.5-1
+Depends: libc
+Provides: libmnl
+License: LGPL-2.1+
+Section: libs
+ABIVersion: 0
+CPE-ID: cpe:/a:netfilter:libmnl
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5705
+Filename: libmnl0_1.0.5-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7001
+SHA256sum: 7a3fcfca8a3742d0d17145a0b58c2c130845d0e50f3baf4f86370f9c7beb0267
+Description:  libmnl is a minimalistic user-space library oriented to Netlink developers.
+ There are a lot of common tasks in parsing, validating, constructing of
+ both the Netlink header and TLVs that are repetitive and easy to get wrong.
+ This library aims to provide simple helpers that allows you to re-use code
+ and to avoid re-inventing the wheel. The main features of this library are:
+ .
+ * Small: the shared library requires around 30KB for an x86-based computer.
+ .
+ * Simple: this library avoids complexity and elaborated abstractions that
+ tend to hide Netlink details.
+ .
+ * Easy to use: the library simplifies the work for Netlink-wise developers.
+ It provides functions to make socket handling, message building, validating,
+ parsing and sequence tracking, easier.
+ .
+ * Easy to re-use: you can use the library to build your own abstraction layer
+ on top of this library.
+ .
+ * Decoupling: the interdependency of the main bricks that compose the library
+ is reduced, i.e. the library provides many helpers, but the programmer is not
+ forced to use them.
+
+Package: libnftnl11
+Version: 1.2.6-1
+Depends: libc, libmnl0
+Provides: libnftnl
+License: GPL-2.0-or-later
+Section: libs
+ABIVersion: 11
+CPE-ID: cpe:/a:netfilter:libnftnl
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 52827
+Filename: libnftnl11_1.2.6-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 53452
+SHA256sum: bbd8e038027b676a5e1b22c6e7abd3e1a6158a07dc820bae694b7fc86b9cca1f
+Description:  libnftnl is a userspace library providing a low-level netlink
+ programming interface (API) to the in-kernel nf_tables subsystem.
+
+Package: libnl-tiny1
+Version: 2023-07-27-bc92a280-1
+Depends: libc
+Provides: libnl-tiny
+License: LGPL-2.1
+Section: libs
+ABIVersion: 1
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 13416
+Filename: libnl-tiny1_2023-07-27-bc92a280-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 14148
+SHA256sum: 17e11398e5a18232a6e289cb0bea13eafdee6fb47c2515548411ee972fe52274
+Description:  This package contains a stripped down version of libnl
+
+Package: libpcap1
+Version: 1.10.4-1
+Depends: libc
+Provides: libpcap
+License: BSD-3-Clause
+Section: libs
+ABIVersion: 1
+CPE-ID: cpe:/a:tcpdump:libpcap
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 94445
+Filename: libpcap1_1.10.4-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 95051
+SHA256sum: 9bbd7589150ca79e22a93426015d4c28454b5e9ce8e3e332ef8948430fbb56d0
+Description:  This package contains a system-independent library for user-level network packet
+ capture.
+
+Package: libpcre2
+Version: 10.42-1
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+CPE-ID: cpe:/a:pcre:pcre
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 182245
+Filename: libpcre2_10.42-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 183025
+SHA256sum: 4f8d59c26d487629efc309d9d2b603fe3fea9220417d798bf9bf42c8a74e590f
+Description:  A Perl Compatible Regular Expression library
+
+Package: libselinux
+Version: 3.5-1
+Depends: libc, libsepol, libpcre2, musl-fts
+License: libselinux-1.0
+Section: libs
+CPE-ID: cpe:/a:selinuxproject:libselinux
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 66645
+Filename: libselinux_3.5-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 67464
+SHA256sum: 3ef40f60b79b4ab818b2bb3896877c5ef396be4d9ee04b7eb653976e3311aa9a
+Description:  libselinux is the runtime SELinux library that provides
+ interfaces (e.g. library functions for the SELinux kernel
+ APIs like getcon(), other support functions like
+ getseuserbyname()) to SELinux-aware applications. libselinux
+ may use the shared libsepol to manipulate the binary policy
+ if necessary (e.g. to downgrade the policy format to an
+ older version supported by the kernel) when loading policy.
+
+Package: libsepol
+Version: 3.5-1
+Depends: libc
+Section: libs
+CPE-ID: cpe:/a:selinuxproject:libsepol
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 259084
+Filename: libsepol_3.5-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 259201
+SHA256sum: 3eb8c3240a13ec2477a1380e09bcd97b738bc67f9b1f9ac59c5b0b2f361be5f6
+Description:  Libsepol is the binary policy manipulation library. It doesn't
+ depend upon or use any of the other SELinux components.
+
+Package: libubox20230523
+Version: 2023-05-23-75a3b870-1
+Depends: libc
+Provides: libubox
+License: ISC
+Section: libs
+ABIVersion: 20230523
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 19424
+Filename: libubox20230523_2023-05-23-75a3b870-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 20160
+SHA256sum: 097da177554b5df45b54a38bf95bf6bfe8c947695fef51914b4e4161fe896dd4
+Description:  Basic utility library
+
+Package: libubus20230605
+Version: 2023-06-05-f787c97b-1
+Depends: libc, libubox20230523
+Provides: libubus
+License: LGPL-2.1
+Section: libs
+ABIVersion: 20230605
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 9730
+Filename: libubus20230605_2023-06-05-f787c97b-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 10496
+SHA256sum: bcf94d033bad5994ef3084638128467322db189aedf2ab910fb746ad2974bf1b
+Description:  OpenWrt RPC client library
+
+Package: libuci20130104
+Version: 2023-08-10-5781664d-1
+Depends: libc, libubox20230523
+Provides: libuci
+License: LGPL-2.1
+Section: libs
+ABIVersion: 20130104
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 15806
+Filename: libuci20130104_2023-08-10-5781664d-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 16581
+SHA256sum: 869247b4dc7c6a6cae7f95524e466b579672a6a442026a772c0f6a35fc68dcd3
+Description:  C library for the Unified Configuration Interface (UCI)
+
+Package: libuclient20201210
+Version: 2023-04-13-007d9454-1
+Depends: libc, libubox20230523
+Provides: libuclient
+License: ISC
+Section: libs
+ABIVersion: 20201210
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 9293
+Filename: libuclient20201210_2023-04-13-007d9454-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 10063
+SHA256sum: 7a43187e5641d007aa8ea83df72e5c4199df21c37db5c31c0981f737cd732e71
+Description:  HTTP/1.1 client library
+
+Package: libucode20230711
+Version: 2023-11-07-a6e75e02-1
+Depends: libc, libjson-c5
+Provides: libucode
+License: ISC
+Section: libs
+ABIVersion: 20230711
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 69778
+Filename: libucode20230711_2023-11-07-a6e75e02-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 70419
+SHA256sum: cf127f8abe34a0174603ad735236f9e92fd6740180c0bed325393ca47b48070f
+Description:  The libucode package provides the shared runtime library for the ucode interpreter.
+
+Package: libustream-mbedtls20201210
+Version: 2023-02-25-498f6e26-1
+Depends: libc, libubox20230523, libmbedtls12
+Conflicts: libustream-openssl, libustream-wolfssl
+Provides: libustream-mbedtls
+License: ISC
+Section: libs
+ABIVersion: 20201210
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3716
+Filename: libustream-mbedtls20201210_2023-02-25-498f6e26-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4496
+SHA256sum: 337e033863fb46ae9b8c51ed95fe7aef7f5423d0610c993f6e6cba2bfcb3f8b9
+Description:  ustream SSL Library (mbedtls)
+
+Package: logd
+Version: 2022-08-13-4c7b720b-2
+Depends: libc, libubox20230523, libubus20230605, libblobmsg-json20230523
+License: GPL-2.0
+Section: base
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 11039
+Filename: logd_2022-08-13-4c7b720b-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 11804
+SHA256sum: 1741da2045aa8e182e283e24e9bd97edd10c6b4bce0d5ef934c5372e6b851e07
+Description:  OpenWrt system log implementation
+
+Package: mt7601u-firmware
+Version: 20230804-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 26437
+Filename: mt7601u-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 27152
+SHA256sum: 825b23cd84cd1b8de3b5cd4bbf3210381203e8795fb2829247539c05bf54e894
+Description:  MediaTek MT7601U firmware
+
+Package: musl-fts
+Version: 1.2.7-1
+Depends: libc, libpthread
+License: LGPL-2.1
+Section: libs
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 4467
+Filename: musl-fts_1.2.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 5266
+SHA256sum: 89221323af00da20f67ed01591057e0b10e9f55edfc7379078def0cc14b84058
+Description:  The musl-fts package implements the fts(3) functions fts_open, fts_read, fts_children, fts_set and fts_close, which are missing in musl libc.
+
+Package: mwifiex-pcie-firmware
+Version: 20230804-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 514901
+Filename: mwifiex-pcie-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 515551
+SHA256sum: 1f2723df3bd4f53a44e1342f703d86502b42879fd50dbb97ad8ae7aebec4aff8
+Description:  Marvell 8897 firmware
+
+Package: mwifiex-sdio-firmware
+Version: 20230804-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 876713
+Filename: mwifiex-sdio-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 877042
+SHA256sum: 36765bccb470b33afdc2c46dbddaefafd3181580a71d081eedff728fab2d27ae
+Description:  Marvell 8887/8997 firmware
+
+Package: mwl8k-firmware
+Version: 20230804-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 192359
+Filename: mwl8k-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 193204
+SHA256sum: 28806c7ca5e00a6dcccccf14ade92742ea9983192202a4f9607529f33a072629
+Description:  Marvell 8366/8687 firmware
+
+Package: netifd
+Version: 2023-11-10-35facc83-1.1
+Depends: libc, libuci20130104, libnl-tiny1, libubus20230605, ubus, ubusd, jshn, libubox20230523
+License: GPL-2.0
+Section: base
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 104746
+Filename: netifd_2023-11-10-35facc83-1.1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 105136
+SHA256sum: dfbd04aa4cda7cd40ba89d6538f7170f13f21db2f927f936cd9d58ea6811e32b
+Description:  OpenWrt Network Interface Configuration Daemon
+
+Package: nftables-json
+Version: 1.0.8-1
+Depends: libc, kmod-nft-core, libnftnl11, jansson4
+Provides: nftables
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 293266
+Filename: nftables-json_1.0.8-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 292010
+SHA256sum: 4185968ecdd6ba81991371326be6a2771c0ade7925ae21499ca8d6d4ec657139
+Description:  nftables userspace utility with JSON support
+
+Package: odhcp6c
+Version: 2023-05-12-bcd28363-20
+Depends: libc, libubox20230523
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 27547
+Filename: odhcp6c_2023-05-12-bcd28363-20_arm_cortex-a9_vfpv3-d16.ipk
+Size: 28374
+SHA256sum: aa00d5ce1a93c66b4826858704917431adf712ec4413ff393836b909da168dea
+Description:  Embedded DHCPv6-client for OpenWrt
+
+Package: odhcpd-ipv6only
+Version: 2023-10-24-d8118f6e-1
+Depends: libc, libubox20230523, libuci20130104, libubus20230605, libnl-tiny1
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 40824
+Filename: odhcpd-ipv6only_2023-10-24-d8118f6e-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 41836
+SHA256sum: 385ac68972f97f1106ae00c6a9410f3cd00fe103b531de78472bb65a2aea9b3e
+Description:  odhcpd is a daemon for serving and relaying IP management protocols to
+ configure clients and downstream routers. It tries to follow the RFC 6204
+ requirements for IPv6 home routers.
+ 
+ This is a variant providing server services for RA, stateless and stateful
+ DHCPv6,  prefix delegation and can be used to relay RA, DHCPv6 and NDP between
+ routed (non-bridged) interfaces in case no delegated prefixes are available.
+
+Package: openwrt-keyring
+Version: 2022-03-25-62471e69-2
+Depends: libc
+Provides: lede-keyring
+License: GPL-2.0
+Section: base
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 310
+Filename: openwrt-keyring_2022-03-25-62471e69-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1093
+SHA256sum: 042b785ede8988eb5f13f9c91b0df5202f706544f5d046c071f384dc2604e914
+Description:  The keyring of with the developer using and gpg public keys.
+
+Package: opkg
+Version: 2022-02-24-d038e5b6-2
+Depends: libc, uclient-fetch, libpthread, libubox20230523
+License: GPL-2.0
+Section: base
+Essential: yes
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 70616
+Filename: opkg_2022-02-24-d038e5b6-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 71624
+SHA256sum: 462decb04281257bcb1dce6def4b8128388bd33c5db70f346f6d12b78388421d
+Description:  Lightweight package management system
+ opkg is the opkg Package Management System, for handling
+ installation and removal of packages on a system. It can
+ recursively follow dependencies and download all packages
+ necessary to install a particular package.
+ 
+ opkg knows how to install both .ipk and .deb packages.
+
+Package: ppp-mod-pppoe
+Version: 2.4.9.git-2021-01-04-4
+Depends: libc, kmod-pppoe
+License: BSD-4-Clause
+Section: net
+CPE-ID: cpe:/a:samba:ppp
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 10450
+Filename: ppp-mod-pppoe_2.4.9.git-2021-01-04-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 11258
+SHA256sum: fe1e9735bbf785f501f4621bff0d65625ad4fd8afa6bfec3b4847787ad26d798
+Description:  This package contains a PPPoE (PPP over Ethernet) plugin for ppp.
+
+Package: ppp
+Version: 2.4.9.git-2021-01-04-4
+Depends: libc, kmod-ppp
+License: BSD-4-Clause
+Section: net
+CPE-ID: cpe:/a:samba:ppp
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 127105
+Filename: ppp_2.4.9.git-2021-01-04-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 127556
+SHA256sum: ce2cb6eea0ddd4d232010b5c2372d7eb213cb1335c03794e4faf5a3fa2b3028f
+Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
+
+Package: procd-seccomp
+Version: 2023-06-25-2db83655-2
+Depends: libc, libubox20230523, libblobmsg-json20230523
+License: GPL-2.0
+Section: base
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 15516
+Filename: procd-seccomp_2023-06-25-2db83655-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 16094
+SHA256sum: e44fc3e6084f91fe20cd6ed7049d29cc6f6ff66066d5b52f60e4cac071ee2f41
+Description:  OpenWrt process seccomp helper + utrace
+
+Package: procd-selinux
+Version: 2023-06-25-2db83655-2
+Depends: libc, ubusd, ubus, libjson-script20230523, ubox, libubox20230523, libubus20230605, libblobmsg-json20230523, libjson-c5, jshn, libselinux
+Provides: procd
+License: GPL-2.0
+Section: base
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 54709
+Filename: procd-selinux_2023-06-25-2db83655-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 55269
+SHA256sum: f2740f57dc46c9e280822af2c7ac8edc13982856aedaefffb384cff0716056b0
+Description:  OpenWrt system process manager with SELinux support
+
+Package: procd-ujail
+Version: 2023-06-25-2db83655-2
+Depends: libc, libubox20230523, libubus20230605, libuci20130104, libblobmsg-json20230523
+License: GPL-2.0
+Section: base
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 43406
+Filename: procd-ujail_2023-06-25-2db83655-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 43836
+SHA256sum: df475da61e5fabcbde5a4841064b3bdb54495068f55c9bf07ca5ec1841b4d403
+Description:  OpenWrt process jail helper
+
+Package: procd
+Version: 2023-06-25-2db83655-2
+Depends: libc, ubusd, ubus, libjson-script20230523, ubox, libubox20230523, libubus20230605, libblobmsg-json20230523, libjson-c5, jshn
+Conflicts: procd-selinux
+License: GPL-2.0
+Section: base
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 54380
+Filename: procd_2023-06-25-2db83655-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 54976
+SHA256sum: 8142c0370f8f8228da630f382c86225a9e6636f2793c04357f8627bb2c212e4a
+Description:  OpenWrt system process manager
+
+Package: r8152-firmware
+Version: 20230804-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 10907
+Filename: r8152-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 11646
+SHA256sum: 0a0c04ac944cfe09df93308f2d5a1907813ea5e0875dd895b51bf076a91cfdb6
+Description:  RealTek RTL8152 firmware
+
+Package: r8169-firmware
+Version: 20230804-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 23816
+Filename: r8169-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 24501
+SHA256sum: 0b4970958245936d93a393b092eca7fed52d4b1f82cb8270c6d6a0c7ce2627b8
+Description:  RealTek RTL8169 firmware
+
+Package: rs9113-firmware
+Version: 20230804-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 84652
+Filename: rs9113-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 85218
+SHA256sum: d664742fb57639e3a50fb912d1796cde3fe80017b8c5940288ce16ecf12b2186
+Description:  RedPine Signals rs9113 firmware
+
+Package: rt2800-pci-firmware
+Version: 20230804-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3958
+Filename: rt2800-pci-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4693
+SHA256sum: 44ebe8122a142a5a26332bd9d2b5576637251fa390985e40a6fbbd1f4a6327f5
+Description:  Ralink RT28xx/3xxx PCI/SoC firmware
+
+Package: rt2800-usb-firmware
+Version: 20230804-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2929
+Filename: rt2800-usb-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3648
+SHA256sum: d370e8e7a2f3db1960a865ce408995b17fe908a4cf0114e9d453c2b7c96b9a15
+Description:  Ralink RT28xx/3xxx USB firmware
+
+Package: rtl8192ce-firmware
+Version: 20230804-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 20751
+Filename: rtl8192ce-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 21452
+SHA256sum: f2a258adae1d49c9e87dfe5ea015e797e7cfcf6d7beeb31e61b128ba8975e99b
+Description:  RealTek RTL8192CE firmware
+
+Package: rtl8192cu-firmware
+Version: 20230804-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 18704
+Filename: rtl8192cu-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 19469
+SHA256sum: d6911c27e1fe176e1505c9f710c4d6b8c548c86187eae559d7fd46f441e8e3a6
+Description:  RealTek RTL8192CU firmware
+
+Package: rtl8192de-firmware
+Version: 20230804-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 13524
+Filename: rtl8192de-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 14258
+SHA256sum: 3face8cbbeff278f9ca3355bfc69da2f221b47489ba0b86df969327b6539dc94
+Description:  RealTek RTL8192DE firmware
+
+Package: rtl8192se-firmware
+Version: 20230804-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 36768
+Filename: rtl8192se-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 37463
+SHA256sum: 21377b7526fe591eaf7762396ab553434bd95592b00d85cc133f532a781bc83f
+Description:  RealTek RTL8192SE firmware
+
+Package: rtl8821ae-firmware
+Version: 20230804-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 23990
+Filename: rtl8821ae-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 24680
+SHA256sum: cac8b0d92e2e3c415e51d4bbed8a486e36989333d929685986e04d804d6c9403
+Description:  RealTek RTL8821AE firmware
+
+Package: selinux-policy
+Version: 1.2.5
+Depends: libc
+License: Unlicense
+Section: system
+CPE-ID: cpe:/a:defensec:selinux-policy
+Architecture: all
+Installed-Size: 60475
+Filename: selinux-policy_1.2.5_all.ipk
+Size: 61170
+SHA256sum: 594ff4bcacaf17525ae4e63e332a9479117fd45dfad86e681f097b7efc57a373
+Description:  Basic SELinux Security Policy designed specifically for
+ OpenWrt and written in Common Intermediate Language.
+
+Package: tc-tiny
+Version: 6.3.0-1
+Depends: libc, kmod-sched-core
+Provides: tc
+Alternatives: 200:/sbin/tc:/usr/libexec/tc-tiny
+License: GPL-2.0
+Section: net
+CPE-ID: cpe:/a:iproute2_project:iproute2
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 186726
+Filename: tc-tiny_6.3.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 187254
+SHA256sum: cd3a7885da094724cbc5b9d0b1c7e59ebf0512cdfb7eac35d46236b231fd0142
+Description:  Traffic control utility (minimal)
+
+Package: ubox
+Version: 2022-08-13-4c7b720b-2
+Depends: libc, libubox20230523, ubusd, ubus, libubus20230605, libuci20130104
+Alternatives: 100:/sbin/rmmod:/sbin/kmodloader, 100:/sbin/insmod:/sbin/kmodloader, 100:/sbin/lsmod:/sbin/kmodloader, 100:/sbin/modinfo:/sbin/kmodloader, 100:/sbin/modprobe:/sbin/kmodloader
+License: GPL-2.0
+Section: base
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 16043
+Filename: ubox_2022-08-13-4c7b720b-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 16865
+SHA256sum: 6555af24a2490b4ab854674770bd544572f45a625812cdc02881694a38b51885
+Description:  OpenWrt system helper toolbox
+
+Package: ubus
+Version: 2023-06-05-f787c97b-1
+Depends: libc, libubus20230605, libblobmsg-json20230523, ubusd
+License: LGPL-2.1
+Section: base
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5892
+Filename: ubus_2023-06-05-f787c97b-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 6642
+SHA256sum: 581bb24d482479135eb54f59934ddc45b2c0d3d410a633409fc6ec8d941f10b2
+Description:  OpenWrt RPC client utility
+
+Package: ubusd
+Version: 2023-06-05-f787c97b-1
+Depends: libc, libubox20230523, libblobmsg-json20230523
+License: LGPL-2.1
+Section: base
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 11518
+Filename: ubusd_2023-06-05-f787c97b-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 12310
+SHA256sum: 67f8e12d18e3897edb43aa04136335e59e4c7be1616acf0495f0db829324ab9c
+Description:  OpenWrt RPC daemon
+
+Package: uci
+Version: 2023-08-10-5781664d-1
+Depends: libc, libuci20130104
+License: LGPL-2.1
+Section: base
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 7234
+Filename: uci_2023-08-10-5781664d-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 8038
+SHA256sum: 9cccd5265573731344f04c51c5dc5850da63ba1e2075dbc5f09065a6d5ac8d35
+Description:  Utility for the Unified Configuration Interface (UCI)
+
+Package: uclient-fetch
+Version: 2023-04-13-007d9454-1
+Depends: libc, libuclient20201210
+Provides: wget
+Alternatives: 200:/usr/bin/wget:/bin/uclient-fetch
+License: ISC
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8194
+Filename: uclient-fetch_2023-04-13-007d9454-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 8914
+SHA256sum: 00b1a88bd3b7701c5ae2c38185657db4aa451e39c909bdcad23e85392004a567
+Description:  Tiny wget replacement using libuclient
+
+Package: ucode-mod-fs
+Version: 2023-11-07-a6e75e02-1
+Depends: libc, ucode
+License: ISC
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 9379
+Filename: ucode-mod-fs_2023-11-07-a6e75e02-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 10155
+SHA256sum: ac0ac2b132170f4bfd196d91f978b0923348db31b1dd43df0d02e7fc1644ba52
+Description:  The filesystem plugin module allows interaction with the local file system.
+
+Package: ucode-mod-nl80211
+Version: 2023-11-07-a6e75e02-1
+Depends: libc, ucode, libnl-tiny1, libubox20230523
+License: ISC
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 19560
+Filename: ucode-mod-nl80211_2023-11-07-a6e75e02-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 20046
+SHA256sum: eb24cc26cf193235025dd14ba1b3397c184ba9a3dc19483c4c3e3273da543e7c
+Description:  The nl80211 plugin provides access to the Linux wireless 802.11 netlink API.
+
+Package: ucode-mod-rtnl
+Version: 2023-11-07-a6e75e02-1
+Depends: libc, ucode, libnl-tiny1, libubox20230523
+License: ISC
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 27021
+Filename: ucode-mod-rtnl_2023-11-07-a6e75e02-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 27470
+SHA256sum: 5ad82b5b670c04dfb58056532617eca4414741ed8dd2006e8135a241f1605876
+Description:  The rtnl plugin provides access to the Linux routing netlink API.
+
+Package: ucode-mod-ubus
+Version: 2023-11-07-a6e75e02-1
+Depends: libc, ucode, libubus20230605, libblobmsg-json20230523
+License: ISC
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 13155
+Filename: ucode-mod-ubus_2023-11-07-a6e75e02-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 13847
+SHA256sum: c1d096be2728958992376d1a3fcf6f7cf347f291d9dd39ca5ec8c3efde06e5a1
+Description:  The ubus module allows ucode template scripts to enumerate and invoke ubus procedures.
+
+Package: ucode-mod-uci
+Version: 2023-11-07-a6e75e02-1
+Depends: libc, ucode, libuci20130104
+License: ISC
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 6818
+Filename: ucode-mod-uci_2023-11-07-a6e75e02-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7651
+SHA256sum: f4c88b4b68327611314c928a422a0f3424f847dc8e7ad2f707f21bf02d7c35b4
+Description:  The uci module allows templates to read and modify uci configuration.
+
+Package: ucode-mod-uloop
+Version: 2023-11-07-a6e75e02-1
+Depends: libc, ucode, libubox20230523
+License: ISC
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 6895
+Filename: ucode-mod-uloop_2023-11-07-a6e75e02-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7713
+SHA256sum: 268ac39e652242d2372b28fb3121549200eb8258067b0122512ab0f619a497b2
+Description:  The uloop module allows ucode scripts to interact with OpenWrt uloop event loop implementation.
+
+Package: ucode
+Version: 2023-11-07-a6e75e02-1
+Depends: libc, libucode20230711
+License: ISC
+Section: lang
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 6443
+Filename: ucode_2023-11-07-a6e75e02-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7261
+SHA256sum: e998935313d39f98dec9c28d6d80307aebcff6cdd00629b4243f8836ee468146
+Description:  ucode is a tiny script interpreter featuring an ECMAScript oriented
+ script language and Jinja-inspired templating.
+
+Package: urandom-seed
+Version: 3
+Depends: libc, getrandom
+License: GPL-2.0-only
+Section: base
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 828
+Filename: urandom-seed_3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1561
+SHA256sum: 57eb40a326aabfcec7d20cea682bf248742c12968cf1c34e81eb280fba853787
+Description:  /etc/urandom.seed handling for OpenWrt
+
+Package: urngd
+Version: 2023-11-01-44365eb1-1
+Depends: libc, libubox20230523
+License: GPL-2.0 BSD-3-Clause
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8962
+Filename: urngd_2023-11-01-44365eb1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9972
+SHA256sum: 05efa3ac5cc4ae76cb86943b2d40b0d814009cffcaf25acf213bb6e424cc3415
+Description:  urngd is OpenWrt's micro non-physical true random number generator based on
+ timing jitter.
+ 
+ Using the Jitter RNG core, the rngd provides an entropy source that feeds into
+ the Linux /dev/random device if its entropy runs low. It updates the
+ /dev/random entropy estimator such that the newly provided entropy unblocks
+ /dev/random.
+ 
+ The seeding of /dev/random also ensures that /dev/urandom benefits from
+ entropy. Especially during boot time, when the entropy of Linux is low, the
+ Jitter RNGd provides a source of sufficient entropy.
+
+Package: usign
+Version: 2020-05-23-f1f65026-1
+Depends: libc, libubox20230523
+License: ISC
+Section: base
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 12113
+Filename: usign_2020-05-23-f1f65026-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 12881
+SHA256sum: 7d63fa1bfedf58969cf5c982c8d87372bf18d5714df35b091a6ce2a6db47ddb4
+Description:  OpenWrt signature verification utility
+
+Package: wil6210-firmware
+Version: 20230804-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 254940
+Filename: wil6210-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 255751
+SHA256sum: ee6cd960369f246d86552947659be16c298763d0b52562b2f913a72d1fe68e20
+Description:  wil6210 firmware
+
+Package: wireless-regdb
+Version: 2023.09.01-1
+Depends: libc
+Section: firmware
+Architecture: all
+Installed-Size: 2300
+Filename: wireless-regdb_2023.09.01-1_all.ipk
+Size: 3023
+SHA256sum: d072c31ab5cfdd6f52c8691f4aa5efc6b177c3619298bb8a32d3f35a3ffbec01
+Description:  Wireless Regulatory Database
+
+Package: wl12xx-firmware
+Version: 20230804-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1175077
+Filename: wl12xx-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1175086
+SHA256sum: 4c343ab88b647622e46e6d020f6e5b6538eaa8a39928ff9617d6e55e09aa2cd0
+Description:  TI WL12xx firmware
+
+Package: wl18xx-firmware
+Version: 20230804-1
+Depends: libc
+Section: firmware
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 343326
+Filename: wl18xx-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 343917
+SHA256sum: 756d3a7d89f06fcfddeb2f03ad1d0022ba9d6a83fece7b7e930c6b22dab85087
+Description:  TI WL18xx firmware
+
+Package: wpad-basic-mbedtls
+Version: 2023-09-08-e5ccbfc6-6
+Depends: hostapd-common (=2023-09-08-e5ccbfc6-6), libc, libnl-tiny1, hostapd-common, ucode, libubus20230605, libucode20230711, ucode-mod-fs, ucode-mod-nl80211, ucode-mod-rtnl, ucode-mod-ubus, ucode-mod-uloop, libblobmsg-json20230523, libmbedtls12
+Conflicts: hostapd, hostapd-basic, hostapd-basic-openssl, hostapd-basic-wolfssl, hostapd-basic-mbedtls, hostapd-mini, hostapd-openssl, hostapd-wolfssl, hostapd-mbedtls, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-mesh-mbedtls, wpad-basic, wpad-basic-openssl, wpad-basic-wolfssl, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-mesh-mbedtls, wpad-basic, wpad-basic-openssl, wpad-basic-wolfssl
+Provides: hostapd, wpa-supplicant
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:w1.fi:hostapd
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 471894
+Filename: wpad-basic-mbedtls_2023-09-08-e5ccbfc6-6_arm_cortex-a9_vfpv3-d16.ipk
+Size: 472292
+SHA256sum: b38e59647e10e21b23872a3902a6966fd4b106ab5a8c64edac3b45ec3ead5a1c
+Description:  This package contains a basic IEEE 802.1x/WPA Authenticator and Supplicant with WPA-PSK, SAE (WPA3-Personal), 802.11r and 802.11w support.
+
+Package: wwan
+Version: 2019-04-29-6
+Depends: libc
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 10035
+Filename: wwan_2019-04-29-6_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9874
+SHA256sum: ab495fc182dd574e4142e9c7b3dcad4a81ae4b0ee59ac1d83d80d356165e55d0
+Description:  Generic OpenWrt 3G/4G proto handler
+
+Package: zlib
+Version: 1.2.13-1
+Depends: libc
+License: Zlib
+Section: libs
+CPE-ID: cpe:/a:gnu:zlib
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 37749
+Filename: zlib_1.2.13-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 38522
+SHA256sum: b59f1e78790d8c5bc6f3b2f5a726ff9a2f5b9aed76dddb523cdfed6edaa4dec6
+Description:  zlib is a lossless data-compression library.
+ This package includes the shared library.
+
