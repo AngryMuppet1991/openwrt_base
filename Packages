@@ -26,17 +26,6 @@ SHA256sum: d8a130a4b516716de1df7e61b8e0ab6e7a1ade5d6f6ccaa346f97d0e2a5be786
 Description:  agetty opens a tty port, prompts for a login name and invokes the
  /bin/login command
 
-Package: ar3k-firmware
-Version: 20230804-1
-Depends: libc
-Section: firmware
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 961485
-Filename: ar3k-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 961798
-SHA256sum: c7ae1852a75aaa62605aa377ddc99135f31c5428f435690fe861b45db1ff36df
-Description:  ath3k firmware
-
 Package: arptables-legacy
 Version: 0.0.5-1
 Depends: libc, kmod-arptables
@@ -50,17 +39,6 @@ Filename: arptables-legacy_0.0.5-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 23375
 SHA256sum: 11721915850371388d95a3ae9744650a1e29ae874423fb3d3b64bfbf9d7144ab
 Description:  ARP firewalling software
-
-Package: ath9k-htc-firmware
-Version: 20230804-1
-Depends: libc
-Section: firmware
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 61877
-Filename: ath9k-htc-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 62449
-SHA256sum: 25b6d3080921685eb041e83e387169d1075f9b4bfb11d4cf33ac7615b3bbfae1
-Description:  AR9271/AR7010 firmware
 
 Package: badblocks
 Version: 1.47.0-2
@@ -104,28 +82,6 @@ SHA256sum: 545f5860ff40ef722b96f5b88ff80dff4d1f6664e108277d070ac6e495e791a2
 Description:  The blkid program is the command-line interface to working with the libblkid
  library.
 
-Package: bnx2-firmware
-Version: 20230804-1
-Depends: libc
-Section: firmware
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 105166
-Filename: bnx2-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 105832
-SHA256sum: ea0cf70706e5f04f7696b71f36172e85b8ac1bb4145d135f74437ecbbeccabef
-Description:  Broadcom BCM5706/5708/5709/5716 firmware
-
-Package: bnx2x-firmware
-Version: 20230804-1
-Depends: libc
-Section: firmware
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 2421829
-Filename: bnx2x-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 2415470
-SHA256sum: f7dcf8a5c2de0a73a595acfb108114c26407e5694ba300553bd4f96cebbcaff9
-Description:  =QLogic 5771x/578xx firmware
-
 Package: bpftool-full
 Version: 7.2.0-1
 Depends: libc, libelf1, libbfd, libopcodes
@@ -141,17 +97,6 @@ SHA256sum: 649aeb8eb76be9de2d5820f8688b651e2b08a089cdc4975924bd40a5bc33363b
 Description:  A tool for inspection and simple manipulation of eBPF programs and maps.
  This full version uses libbfd and libopcodes to support disassembly of
  eBPF programs and jited code.
-
-Package: brcmfmac-firmware-usb
-Version: 20230804-1
-Depends: libc
-Section: firmware
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 502982
-Filename: brcmfmac-firmware-usb_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 503690
-SHA256sum: bffcbd78e9a963f960137911af8804f5fb3e0d7de17d1fda2783f20286e93b6b
-Description:  Broadcom BCM43xx fullmac USB firmware
 
 Package: bridger
 Version: 2023-05-12-d0f79a16
@@ -217,17 +162,6 @@ Filename: ca-certificates_20230311-1_all.ipk
 Size: 134542
 SHA256sum: a35d3b230eae3cf6487dd7883da98f2195c75da1c3f8a95869411016073d2db1
 Description:  System CA certificates
-
-Package: carl9170-firmware
-Version: 20230804-1
-Depends: libc
-Section: firmware
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 9761
-Filename: carl9170-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 10498
-SHA256sum: 7ecb83069f21a0c955c270b9524626bb58e0e96adc3ad2a97ce3544d8a3db58f
-Description:  AR9170 firmware
 
 Package: cfdisk
 Version: 2.39-2
@@ -340,17 +274,6 @@ Filename: dumpe2fs_1.47.0-2_arm_cortex-a9_vfpv3-d16.ipk
 Size: 9642
 SHA256sum: ae3e640858bcfc04b1ee7b2a56d3dde4d069ac85ad20168050c2cc16236f3ffe
 Description:  Ext2 Filesystem information dumping utility
-
-Package: e100-firmware
-Version: 20230804-1
-Depends: libc
-Section: firmware
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 833
-Filename: e100-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 1566
-SHA256sum: 8a33025f72125f82ccd04ba72c34074920cf7142867dfee1363efd4680b6f63b
-Description:  Intel e100
 
 Package: e2freefrag
 Version: 1.47.0-2
@@ -2664,17 +2587,6 @@ Size: 58058
 SHA256sum: 41e1f4476df420069ff5d3682835f3f739e454d07994cf858f5847fa5691f504
 Description:  contains: mount, umount, findmnt
 
-Package: mt7601u-firmware
-Version: 20230804-1
-Depends: libc
-Section: firmware
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 26437
-Filename: mt7601u-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 27152
-SHA256sum: 825b23cd84cd1b8de3b5cd4bbf3210381203e8795fb2829247539c05bf54e894
-Description:  MediaTek MT7601U firmware
-
 Package: musl-fts
 Version: 1.2.7-1
 Depends: libc, libpthread
@@ -2687,17 +2599,6 @@ Size: 5266
 SHA256sum: 89221323af00da20f67ed01591057e0b10e9f55edfc7379078def0cc14b84058
 Description:  The musl-fts package implements the fts(3) functions fts_open, fts_read, fts_children, fts_set and fts_close, which are missing in musl libc.
 
-Package: mwifiex-pcie-firmware
-Version: 20230804-1
-Depends: libc
-Section: firmware
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 514901
-Filename: mwifiex-pcie-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 515551
-SHA256sum: 1f2723df3bd4f53a44e1342f703d86502b42879fd50dbb97ad8ae7aebec4aff8
-Description:  Marvell 8897 firmware
-
 Package: mwifiex-sdio-firmware
 Version: 20230804-1
 Depends: libc
@@ -2708,17 +2609,6 @@ Filename: mwifiex-sdio-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 877042
 SHA256sum: 36765bccb470b33afdc2c46dbddaefafd3181580a71d081eedff728fab2d27ae
 Description:  Marvell 8887/8997 firmware
-
-Package: mwl8k-firmware
-Version: 20230804-1
-Depends: libc
-Section: firmware
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 192359
-Filename: mwl8k-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 193204
-SHA256sum: 28806c7ca5e00a6dcccccf14ade92742ea9983192202a4f9607529f33a072629
-Description:  Marvell 8366/8687 firmware
 
 Package: netifd
 Version: 2023-11-10-35facc83-1.1
@@ -3266,17 +3156,6 @@ Size: 11646
 SHA256sum: 0a0c04ac944cfe09df93308f2d5a1907813ea5e0875dd895b51bf076a91cfdb6
 Description:  RealTek RTL8152 firmware
 
-Package: r8169-firmware
-Version: 20230804-1
-Depends: libc
-Section: firmware
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 23816
-Filename: r8169-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 24501
-SHA256sum: 0b4970958245936d93a393b092eca7fed52d4b1f82cb8270c6d6a0c7ce2627b8
-Description:  RealTek RTL8169 firmware
-
 Package: relayd
 Version: 2023-01-28-f646ba40-1
 Depends: libc, libubox20230523
@@ -3379,17 +3258,6 @@ SHA256sum: b0e413cc2e321176b654b29e94f0dd3a34174a7857ddece7853b99d96289cd5c
 Description:  This package provides the UBUS RPC backend server to expose various
  functionality to frontend programs via JSON-RPC.
 
-Package: rs9113-firmware
-Version: 20230804-1
-Depends: libc
-Section: firmware
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 84652
-Filename: rs9113-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 85218
-SHA256sum: d664742fb57639e3a50fb912d1796cde3fe80017b8c5940288ce16ecf12b2186
-Description:  RedPine Signals rs9113 firmware
-
 Package: rssileds
 Version: 4
 Depends: libc, libiwinfo20230701, libnl-tiny1, libubox20230523, libuci20130104
@@ -3400,83 +3268,6 @@ Filename: rssileds_4_arm_cortex-a9_vfpv3-d16.ipk
 Size: 4413
 SHA256sum: 91a5211fcb6a4f3178f3d1b1db414ba746002447ca5f61956323e2b7004ce2a7
 Description:  A small process written in C to update the signal-strength indicator LEDs
-
-Package: rt2800-pci-firmware
-Version: 20230804-1
-Depends: libc
-Section: firmware
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 3958
-Filename: rt2800-pci-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 4693
-SHA256sum: 44ebe8122a142a5a26332bd9d2b5576637251fa390985e40a6fbbd1f4a6327f5
-Description:  Ralink RT28xx/3xxx PCI/SoC firmware
-
-Package: rt2800-usb-firmware
-Version: 20230804-1
-Depends: libc
-Section: firmware
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 2929
-Filename: rt2800-usb-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 3648
-SHA256sum: d370e8e7a2f3db1960a865ce408995b17fe908a4cf0114e9d453c2b7c96b9a15
-Description:  Ralink RT28xx/3xxx USB firmware
-
-Package: rtl8192ce-firmware
-Version: 20230804-1
-Depends: libc
-Section: firmware
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 20751
-Filename: rtl8192ce-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 21452
-SHA256sum: f2a258adae1d49c9e87dfe5ea015e797e7cfcf6d7beeb31e61b128ba8975e99b
-Description:  RealTek RTL8192CE firmware
-
-Package: rtl8192cu-firmware
-Version: 20230804-1
-Depends: libc
-Section: firmware
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 18704
-Filename: rtl8192cu-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 19469
-SHA256sum: d6911c27e1fe176e1505c9f710c4d6b8c548c86187eae559d7fd46f441e8e3a6
-Description:  RealTek RTL8192CU firmware
-
-Package: rtl8192de-firmware
-Version: 20230804-1
-Depends: libc
-Section: firmware
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 13524
-Filename: rtl8192de-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 14258
-SHA256sum: 3face8cbbeff278f9ca3355bfc69da2f221b47489ba0b86df969327b6539dc94
-Description:  RealTek RTL8192DE firmware
-
-Package: rtl8192se-firmware
-Version: 20230804-1
-Depends: libc
-Section: firmware
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 36768
-Filename: rtl8192se-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 37463
-SHA256sum: 21377b7526fe591eaf7762396ab553434bd95592b00d85cc133f532a781bc83f
-Description:  RealTek RTL8192SE firmware
-
-Package: rtl8821ae-firmware
-Version: 20230804-1
-Depends: libc
-Section: firmware
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 23990
-Filename: rtl8821ae-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 24680
-SHA256sum: cac8b0d92e2e3c415e51d4bbed8a486e36989333d929685986e04d804d6c9403
-Description:  RealTek RTL8821AE firmware
 
 Package: script-utils
 Version: 2.39-2
@@ -4126,17 +3917,6 @@ SHA256sum: fc27b8a2ab302e31854807cb5f281454a7995025341af71f3d759a04099d02c9
 Description:  wall sends a message to everybody logged in with their mesg permission
  set to yes
 
-Package: wil6210-firmware
-Version: 20230804-1
-Depends: libc
-Section: firmware
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 254940
-Filename: wil6210-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 255751
-SHA256sum: ee6cd960369f246d86552947659be16c298763d0b52562b2f913a72d1fe68e20
-Description:  wil6210 firmware
-
 Package: wipefs
 Version: 2.39-2
 Depends: libc, libblkid1, libsmartcols1
@@ -4196,28 +3976,6 @@ Size: 24883
 SHA256sum: 7aaeb3db2031797b42a8f418cd8515c0c0a1721e82bb561c0634126db64c69d6
 Description:  This package contains a collection of tools for configuring wireless
  adapters implementing the "Linux Wireless Extensions".
-
-Package: wl12xx-firmware
-Version: 20230804-1
-Depends: libc
-Section: firmware
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 1175077
-Filename: wl12xx-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 1175086
-SHA256sum: 4c343ab88b647622e46e6d020f6e5b6538eaa8a39928ff9617d6e55e09aa2cd0
-Description:  TI WL12xx firmware
-
-Package: wl18xx-firmware
-Version: 20230804-1
-Depends: libc
-Section: firmware
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 343326
-Filename: wl18xx-firmware_20230804-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 343917
-SHA256sum: 756d3a7d89f06fcfddeb2f03ad1d0022ba9d6a83fece7b7e930c6b22dab85087
-Description:  TI WL18xx firmware
 
 Package: wpad-basic-mbedtls
 Version: 2023-09-08-e5ccbfc6-6
