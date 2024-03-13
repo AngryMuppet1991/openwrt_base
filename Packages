@@ -347,10 +347,10 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:thekelleys:dnsmasq
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 197884
+Installed-Size: 197742
 Filename: dnsmasq-full_2.89-4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 198379
-SHA256sum: 90359fcceeb71279ae6ec79929227ecab40646fba867b5936408a998b0c430a8
+Size: 198250
+SHA256sum: 19bf338861c435dbc6b6bf1a4f83f666aeec5f4028c15bef2f86c7a48dbfe508
 Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
  
  This is a fully configurable variant with DHCPv4, DHCPv6, DNSSEC, Authoritative DNS
@@ -3059,16 +3059,16 @@ Description:  Policycoreutils is a collection of policy utilities
 
 Package: policycoreutils-newrole
 Version: 3.5-1
-Depends: libc, policycoreutils, libselinux, libaudit, libpam
+Depends: libc, policycoreutils, libselinux, libaudit
 Alternatives: 300:/usr/bin/newrole:/usr/bin/policycoreutils-newrole
 License: GPL-2.0-or-later
 Section: utils
 CPE-ID: cpe:/a:selinuxproject:policycoreutils
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 7890
+Installed-Size: 6380
 Filename: policycoreutils-newrole_3.5-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 8834
-SHA256sum: cfbe32ee53e52b2028050d0c5acf4b0dfdce988d466227badead22be2eec8f7d
+Size: 7352
+SHA256sum: 1892715fa7141f821042244420071dcae2d040931998695f838f9a3ba98e7147
 Description:  Policycoreutils is a collection of policy utilities
  (originally the "core" set of utilities needed to use
  SELinux, although it has grown a bit over time).
@@ -3128,15 +3128,15 @@ Description:  Policycoreutils is a collection of policy utilities
 
 Package: policycoreutils-run_init
 Version: 3.5-1
-Depends: libc, policycoreutils, libselinux, libaudit, libpam
+Depends: libc, policycoreutils, libselinux, libaudit
 License: GPL-2.0-or-later
 Section: utils
 CPE-ID: cpe:/a:selinuxproject:policycoreutils
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 2896
+Installed-Size: 2847
 Filename: policycoreutils-run_init_3.5-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 3777
-SHA256sum: 0d11dfdb31baf98bab9aecc16cbbd9b70e2198a7141e6a99b4af22a208aca216
+Size: 3730
+SHA256sum: 1e5f41c3b7407cf71f7c628d16cd8558601726f7b651bcaad0080e038ed9a824
 Description:  Policycoreutils is a collection of policy utilities
  (originally the "core" set of utilities needed to use
  SELinux, although it has grown a bit over time).
@@ -3239,10 +3239,10 @@ License: GPL-2.0-or-later
 Section: utils
 CPE-ID: cpe:/a:selinuxproject:policycoreutils
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 483
+Installed-Size: 269
 Filename: policycoreutils_3.5-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 1266
-SHA256sum: 9db0a4229781f98c37c7dcfbab852c8aa8b42242e301d0a6255cf4be539b2959
+Size: 1045
+SHA256sum: 83649544ccdee074552fd59bbf43118fa244ec5159f884ecc7712395020f2ba9
 Description:  SELinux policy utility common files
 
 Package: ppp-mod-passwordfd
