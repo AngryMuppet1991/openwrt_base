@@ -167,17 +167,17 @@ Description:  Bridge forwarding accelerator
 
 Package: busybox-selinux
 Version: 1.36.1-1
-Depends: libc, libpam, libselinux
+Depends: libc, libpam, jsonfilter, libselinux
 Provides: busybox
 License: GPL-2.0
 Section: base
 CPE-ID: cpe:/a:busybox:busybox
 Essential: yes
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 180718
+Installed-Size: 281329
 Filename: busybox-selinux_1.36.1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 180900
-SHA256sum: 021be612a35e722b1abda73cded64e2e2ef52f3c2bc3da0d117be08d5d729793
+Size: 281543
+SHA256sum: abdc0340bd14f94840bad6395467045e275fa3bc0c4f738988580e3cbbd8f5d7
 Description:  Core utilities for embedded Linux with SELinux support
 
 Package: bzip2
