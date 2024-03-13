@@ -255,7 +255,7 @@ Description:  Bridge forwarding accelerator
 
 Package: busybox-selinux
 Version: 1.36.1-1
-Depends: libc, libpam, jsonfilter, libselinux
+Depends: libc, jsonfilter, libselinux
 Provides: busybox
 Source: package/utils/busybox
 SourceName: busybox-selinux
@@ -268,33 +268,11 @@ CPE-ID: cpe:/a:busybox:busybox
 Essential: yes
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 274098
+Installed-Size: 280687
 Filename: busybox-selinux_1.36.1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 274088
-SHA256sum: 19fb19543c245bc18f3f29487ffbc9b1631f5dc30514be4d9653a0667049677e
+Size: 280409
+SHA256sum: b48cd0b2cf9013c74faae1195e57ec6ffcac3a192bc06446d83b12efd21d95fd
 Description:  Core utilities for embedded Linux with SELinux support
-
-Package: busybox
-Version: 1.36.1-1
-Depends: libc, libpam, jsonfilter, libselinux
-Conflicts: busybox-selinux
-Source: package/utils/busybox
-SourceName: busybox
-License: GPL-2.0
-LicenseFiles: LICENSE archival/libarchive/bz/LICENSE
-Section: base
-Require-User: ntp=123:ntp=123
-SourceDateEpoch: 1700002853
-CPE-ID: cpe:/a:busybox:busybox
-Essential: yes
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 266485
-Filename: busybox_1.36.1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 266539
-SHA256sum: 461049bc9eaf6c32663ad21afa9df1865f49f91eea879d42a9bda23acdaf5944
-Description:  The Swiss Army Knife of embedded Linux.
- It slices, it dices, it makes Julian Fries.
 
 Package: bzip2
 Version: 1.0.8-1
@@ -830,6 +808,24 @@ Size: 29673
 SHA256sum: f3e2284a4203ba26539cc10d78fe8e57ea3109ec1f66df4b4a578470ac93cadf
 Description:  This package provides an nftables-based implementation of the UCI firewall
  sharing the same configuration format.
+
+Package: flock
+Version: 2.39-2
+Depends: libc, librt
+Alternatives: 200:/usr/bin/flock:/usr/bin/util-linux-flock
+Source: package/utils/util-linux
+SourceName: flock
+License: GPL-2.0-only
+LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+SourceDateEpoch: 1700002853
+CPE-ID: cpe:/a:kernel:util-linux
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 11195
+Filename: flock_2.39-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 12043
+SHA256sum: 97d26b95b568e30fdd988c22781ab31a03360f85efb004dcbf83185b590f1341
+Description:  manages flock locks from within shell scripts or the command line
 
 Package: fstrim
 Version: 2.39-2
@@ -1789,6 +1785,25 @@ Filename: libjson-script20230523_2023-05-23-75a3b870-1_arm_cortex-a9_vfpv3-d16.i
 Size: 5367
 SHA256sum: d5a058e530e15e4a4d33f0861d4466d1e83e81d4a2ca58efe71a3f2ebb94dd97
 Description:  Minimalistic JSON based scripting engine
+
+Package: libltdl7
+Version: 2.4.7-1
+Depends: libc
+Provides: libltdl
+Source: package/libs/libtool
+SourceName: libltdl
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1700002853
+ABIVersion: 7
+CPE-ID: cpe:/a:gnu:libtool
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 13504
+Filename: libltdl7_2.4.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 14235
+SHA256sum: eefe796efa48bff91caab7c43c0c84dd2a7185175884e2ad049fc0c5c06dc361
+Description:  A generic dynamic object loading library
 
 Package: liblua5.1.5
 Version: 5.1.5-10
